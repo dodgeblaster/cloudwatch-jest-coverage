@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "ci:test": "node_modules/.bin/jest --config=./jest-ci.config.js"
     },
     "keywords": [],
     "author": "",
@@ -12,6 +12,9 @@
     "dependencies": {
         "aws-sdk": "^2.976.0",
         "jest": "^27.0.6",
-        "uuid": "^8.3.2"
+        "npm-check": "^5.9.2",
+        "react": "^16.11.0",
+        "uuid": "^8.3.2",
+        "webpack": "^2.2.0"
     }
 }
